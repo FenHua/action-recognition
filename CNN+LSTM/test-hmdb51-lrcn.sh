@@ -1,0 +1,1 @@
+python -u test.py --dataset hmdb51 --video_path '/home/yanhuanqian/I3D/Datasets/HMDB51/hmdb51-jpg' --annotation_path '/home/yanhuanqian/I3D/Datasets/HMDB51/hmdb51-annotation/hmdb51_1.json' --batch_size 6  --num_classes 51  --spatial_size 224 --sample_duration 16 --learning_rate 1e-4  --save_dir results --dropout_keep_prob 0.5 --num_scales 1

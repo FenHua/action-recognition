@@ -1,0 +1,1 @@
+python -u train.py --dataset ucf101 --video_path '/home/yanhuanqian/I3D/Datasets/UCF101/UCF101-jpg' --annotation_path '/home/yanhuanqian/I3D/Datasets/UCF101/UCF101-annotation/ucf101_01.json' --batch_size 6  --num_classes 101  --spatial_size 224 --sample_duration 32 --learning_rate 1e-4  --save_dir results --dropout_keep_prob 0.5 --num_scales 1
